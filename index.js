@@ -111,6 +111,9 @@ for (let i = 0; i < linkvar.length; i++) {
   if (linkvar[i].getAttribute("href") === "#") {
     linkvar[i].style.display = "none";
   }
+  if (linkvar[i].getAttribute("href") === "mailto:jssaksargyan@gmail.com") {
+    linkvar[i].setAttribute("href", "mailto:jssakshargyan@gmail.com");
+  }
 }
 
 const branch = document.querySelectorAll(".our_team_indi div");
