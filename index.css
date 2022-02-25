@@ -1495,3 +1495,14 @@ a:hover {
 .aksargyan_activites_des,.our_team_about{
   text-align :justify;}
 
+
+
+/* new css */
+
+.contact_us_main_container a {
+  height: 315px;
+  width: 350px;
+  border-radius: 0px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
