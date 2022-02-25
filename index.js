@@ -137,3 +137,23 @@ document.addEventListener("keydown", function (e) {
     scrollToTop();
   }
 });
+
+
+// js for linked in
+
+
+
+const footerHeaderGmailChange = new Array(
+  linkvar[8],
+  linkvar[linkvar.length - 2]
+);
+
+for (let i of footerHeaderGmailChange) {
+  i.href = "https://www.linkedin.com/company/akshargyan";
+}
+
+const footerLinkedinContent = document.querySelectorAll(
+  ".aksargyan_footer_logo span"
+);
+
+footerLinkedinContent[0].innerHTML = "Akshargyan";
