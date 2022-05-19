@@ -138,10 +138,7 @@ document.addEventListener("keydown", function (e) {
   }
 });
 
-
 // js for linked in
-
-
 
 const footerHeaderGmailChange = new Array(
   linkvar[8],
@@ -157,3 +154,15 @@ const footerLinkedinContent = document.querySelectorAll(
 );
 
 footerLinkedinContent[0].innerHTML = "Akshargyan";
+
+document
+  .querySelector(".aksargyan_logo")
+  .removeChild(document.querySelectorAll(".aksargyan_logo_image")[0]);
+
+const logoLink = document.createElement("a");
+
+logoLink.setAttribute("href", "index.html");
+
+logoLink.innerHTML = `<div class="aksargyan_logo_image"></div>`;
+
+document.querySelector(".aksargyan_logo").appendChild(logoLink);
