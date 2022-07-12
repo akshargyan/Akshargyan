@@ -1064,11 +1064,11 @@ main {
   margin: 0 -10px;
 }
 .our_team_row_div label {
-  height: 56px;
+  /* height: 56px; */
   background-color: rgba(53, 171, 225, 0.7);
-  padding: 10px;
-  height: 57px;
-  width: 187px;
+  padding: 10px 35px 10px 35px;
+  /* height: 57px; */
+  /* width: 187px; */
 
   border-radius: 6px;
 
@@ -1492,10 +1492,10 @@ a:hover {
 
 /* for text alighnment */
 
-.aksargyan_activites_des,.our_team_about{
-  text-align :justify;}
-
-
+.aksargyan_activites_des,
+.our_team_about {
+  text-align: justify;
+}
 
 /* new css */
 
