@@ -166,3 +166,17 @@ logoLink.setAttribute("href", "index.html");
 logoLink.innerHTML = `<div class="aksargyan_logo_image"></div>`;
 
 document.querySelector(".aksargyan_logo").appendChild(logoLink);
+
+console.log(document.querySelectorAll(".aksargyan_footer_logo")[1]);
+
+const newNum = 9451720357;
+
+document.querySelectorAll(
+  ".aksargyan_footer_logo"
+)[1].innerHTML = `<img src="images/Phone.png" /><h4>+91 ${newNum}</h4>`;
+
+document
+  .querySelectorAll(".aksargyan_footer_item>a")[0]
+  .setAttribute("href", `tel:+91 ${newNum}`);
+
+// snippet for team page
