@@ -1,6 +1,6 @@
 // to set the title of website
 
-document.querySelector('title').innerHTML = 'Akshargyan';
+// document.querySelector('title').innerHTML = 'Akshargyan';
 
 function myFunction() {
   var dots = document.getElementById('dots');
