@@ -1,7 +1,7 @@
 'use strict';
 const selectonNum = [];
 while (selectonNum.length < 5) {
-  let i = Math.floor(Math.random() * 13);
+  let i = Math.floor(Math.random() * 10);
   if (!selectonNum.includes(i)) {
     selectonNum.push(i);
   }
@@ -16,14 +16,11 @@ const nameKey = [
   'Harshit Agarwal',
   'Abhishek Singh',
   'Saurabh Shukla',
-  'Pranav Prajapati',
   'Naveen Singh',
   'Prateek Rastogi',
   'Akash Singh',
   'Aryan Amitabh',
   'Tarush Raj Srivastava',
-  'Vishal Choudhary',
-  'Abhay Kumar Singh',
 ];
 
 const dataObject = {
@@ -69,13 +66,6 @@ const dataObject = {
     linkedIn: '#',
     twt: '#',
   },
-  'Pranav Prajapati': {
-    imgScr: 'team/3rd_year/Pranav.jpeg',
-    branch: 'Mechanical Engineering',
-    insta: 'https://www.instagram.com/pranav_prajapati_007/',
-    linkedIn: '#',
-    twt: 'https://www.facebook.com/pranav.prajapath',
-  },
   'Naveen Singh': {
     imgScr: 'team/3rd_year/Naveen_Singh.png',
     branch: 'Mechanical Engineering',
@@ -113,20 +103,6 @@ const dataObject = {
     linkedIn: 'https://instagram.com/imtarushraj?utm_medium=copy_link',
     insta: 'https://www.linkedin.com/in/tarush-raj-srivastava-5523ab192',
     twt: 'https://twitter.com/TarushRajSriva1?t=uqyCKIX9aRplagdeaebZNQ&s=08',
-  },
-  'Vishal Choudhary': {
-    imgScr: 'team/3rd_year/Vishal_choudhary.png',
-    branch: 'Information and Technology',
-    linkedIn: 'https://instagram.com/official_vishal_chy_?utm_medium=copy_link',
-    insta: '#',
-    twt: 'https://twitter.com/Vishalchy6?t=Lb7pPHVCdpngS_6uAEIa4A&s=09',
-  },
-  'Abhay Kumar Singh': {
-    imgScr: 'team/3rd_year/Abhay_Kuar_Singh.jpeg',
-    branch: 'Computer Science Engineering',
-    linkedIn: 'https://instagram.com/26abhaykumarsingh?utm_medium=copy_link',
-    insta: '#',
-    twt: '#',
   },
 };
 
