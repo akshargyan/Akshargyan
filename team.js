@@ -3,7 +3,7 @@
 const teamContainer = document.querySelectorAll('.our_team_row_div_inner');
 
 class CardShow {
-  constructor(name, branch, insta, linkedin, twt, pic, number) {
+  constructor(name, branch, insta , linkedin , twt , pic, number) {
     this.name = name;
     this.branch = branch;
     this.insta = insta;
@@ -31,15 +31,6 @@ class CardShow {
 }
 
 // 3rd years
-new CardShow(
-  'Yash ',
-  'Civil Engineering',
-  'https://www.instagram.com/yashgupta6445?r=nametag',
-  'https://www.linkedin.com/in/yash-gupta-91b129253',
-  '#',
-  'team/2nd_year/Yash Gupta.jpg',
-  1
-);
 
 new CardShow(
   'Abhinav Pal',
@@ -158,4 +149,179 @@ new CardShow(
   '#',
   'team/1st_year/Anammya Vaish.jpeg',
   2
+)
+
+
+// 1st year entry
+
+// Aakrati Singh 
+
+new CardShow(
+  'Aakrati Singh ',
+  'Computer Science Engineering',
+  'https://instagram.com/aakratisingh_153?igshid=ZGUzMzM3NWJiOQ==',
+  '#','#',
+  'team/2022-26/IMG20221231233054 - 22CS045 Aakrati Singh.jpg',
+  3
+);
+
+// Bhavana Tiwari
+
+new CardShow(
+  'Bhavana Tiwari',
+  'Computer Science Engineering',
+  'https://instagram.com/bhavana_tiwari16?igshid=ZGUzMzM3NWJiOQ==',
+  'https://www.linkedin.com/in/bhavana-tiwari-29576b272',
+  '#',
+  'team/2022-26/bhavna.jpg',
+  3
+);
+
+// Arya Tripathi
+
+new CardShow(
+  'Arya Tripathi',
+  'Electronics and Communications Engineering',
+  'https://www.instagram.com/aryatripathi__04/',
+  'https://www.linkedin.com/in/arya-tripathi-379648256',
+  '#',
+  'team/2022-26/arya.jpg',
+  3
+);
+
+
+// Disha Pandey 
+
+new CardShow(
+  'Disha Pandey ',
+  'Information and Technology',
+  'https://instagram.com/dishapandey2556?igshid=MzNlNGNkZWQ4Mg==',
+  '#','#',
+  'team/2022-26/disha.jpeg',
+  3
+);
+
+// Anushka Bhushan
+
+new CardShow(
+  'Anushka Bhushan',
+  'Electrical and Electronics Engineering',
+  'https://www.instagram.com/anushka.bhushan/',
+  '#','#',
+  'team/2022-26/IMG-20220411-WA0086 - Anushka Bhushan.jpg',
+  3
+);
+
+// Somiya Gupta
+
+new CardShow(
+  'Somiya Gupta',
+  'Information and Technology',
+  'https://instagram.com/__.oblivion07.__?igshid=MzNlNGNkZWQ4Mg==',
+  'https://www.linkedin.com/in/somiya-gupta-71763426b',
+  '#',
+  'team/2022-26/IMG-20230425-WA0165 - Somiya Gupta.jpg',
+  3
+);
+
+// Sahil Shyam Gupta 
+
+new CardShow(
+  'Sahil Shyam Gupta ',
+  'Electrical and Electronics Engineering',
+  'https://instagram.com/sahilshyamgupta?igshid=ZGUzMzM3NWJiOQ==',
+  '#','#',
+  'team/2022-26/20230222_234446_0000 - Sahil Shyam Gupta.png',
+  3
+);
+
+//Arnav Agarwal
+
+new CardShow(
+  'Arnav Agarwal',
+  'Electrical and Electronics Engineering',
+  'https://instagram.com/arnavagrawal78?igshid=ZGUzMzM3NWJiOQ==',
+  '#','#',
+  'team/2022-26/4c1865e6-f880-4230-8194-841d8fc89170 - Arnav Agrawal.JPG',
+  3
+);
+
+new CardShow(
+  'Ishika Upreti',
+  'Electronics and Communications Engineering',
+  'https://instagram.com/_ishika_1603?igshid=ZGUzMzM3NWJiOQ==',
+  '#','#',
+  'team/2022-26/Ishika - Ishika.jpg',
+  3
+);
+
+// Mohit Kumar
+
+new CardShow(
+  'Mohit Kumar',
+  'Information and Technology',
+  'https://instagram.com/imohit_rajput_2502?igshid=Y2M0YTlkZGNmOQ==',
+  'https://www.linkedin.com/in/mohit-kumar-211499253',
+  '#',
+  'team/2022-26/IMG_20171220_145521-1 - Mohit Kumar.jpg',
+  3
+)
+
+
+// Khushi Madeshia 
+
+new CardShow(
+  'Khushi Madeshia ',
+  'Information and Technology',
+  'https://instagram.com/_._khushi_93?igshid=ZGUzMzM3NWJiOQ==',
+  'https://www.linkedin.com/in/khushi-madeshia-529502222',
+  'https://twitter.com/KhushiMadeshia?t=naUJMb8kfhh2J40vlK-4gw&s=09',
+  'team/2022-26/IMG20230521120759 - Khushi Madeshia.jpg',
+  3
+);
+
+// Dhruv Dhiman 
+
+new CardShow(
+  'Dhruv Dhiman',
+  'Computer Science Engineering',
+  'https://instagram.com/dhiman_dhruv_?igshid=NGExMmI2YTkyZg==',
+  'https://www.linkedin.com/in/dhruv-dhiman-5a968726b',
+  '#',
+  'team/2022-26/IMG_20220921_181523 - Dhruv Dhiman.jpg',
+  3
+);
+
+// Suryansh Yadav
+
+new CardShow(
+  'Suryansh Yadav',
+  'Computer Science Engineering (Data Science)',
+  'https://instagram.com/suryansh.py?igshid=MzNlNGNkZWQ4Mg==',
+  'https://www.linkedin.com/in/suryansh-yadav-76b696257',
+  'https://twitter.com/suryansh_py?t=YU9-bpkxDmtZkkg8h4LfVg&s=09',
+  'team/2022-26/syuryansh.jpg',
+  3
+)
+
+// Sangesh Yadav
+
+new CardShow(
+  'Sangesh Yadav',
+  'Electronics and Communications Engineering',
+  'https://instagram.com/sangesh07?igshid=NTc4MTIwNjQ2YQ==',
+  '#','#',
+  'team/2022-26/sangesh.jpg',
+  3
+);
+
+// Mahima Gupta
+
+new CardShow(
+  'Mahima Gupta',
+  'Computer Science Engineering (Data Science)',
+  'https://instagram.com/mahima.30_?igshid=ZGUzMzM3NWJiOQ==',
+  '#','#',
+  'team/2022-26/Screenshot_2023-05-24-22-56-10-959_com.miui.gallery - Mahima Gupta.jpg',
+  3
 )
