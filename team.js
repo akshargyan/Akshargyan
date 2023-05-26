@@ -106,7 +106,7 @@ new CardShow(
 // Lekhansh Sachan
 new CardShow(
   'Lekhansh Sachan',
-  'Electronics and Communications Engineering',
+  'Computer Science Engineering',
   'https://www.instagram.com/invites/contact/?i=1ercys0vpmbw9&utm_content=wmatqp',
   'https://www.linkedin.com/in/lekhansh-sachan-6079a523a',
   'https://twitter.com/lekhansh_sachan?t=GOnIc3G_RPkjYBwU6DvfQg&s=08',
