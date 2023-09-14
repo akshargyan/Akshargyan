@@ -71,7 +71,7 @@ for (let k = 0; k < branch.length; k++) {
 for (let k = 0; k < branchAlign.length; k++) {
   branchAlign[k].classList.add('modify');
 }
-console.log(branchAlign);
+// console.log(branchAlign);
 
 for (let k = 0; k < short.length; k++) {
   short[k].textContent = '';
@@ -111,7 +111,7 @@ logoLink.innerHTML = `<div class="aksargyan_logo_image"></div>`;
 
 document.querySelector('.aksargyan_logo').appendChild(logoLink);
 
-console.log(document.querySelectorAll('.aksargyan_footer_logo')[1]);
+// console.log(document.querySelectorAll('.aksargyan_footer_logo')[1]);
 
 const newNum = 9451720357;
 
