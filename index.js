@@ -126,5 +126,5 @@ document
 document.querySelectorAll(
   'a'
 ).forEach((link)=>{
-  if(link.getAttribute("src") == "#")link.style.display = "none";
+  if(link.getAttribute("href") == "#")link.style.display = "none";
 });
