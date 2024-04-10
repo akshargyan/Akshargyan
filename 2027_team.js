@@ -104,9 +104,9 @@ const data = [
     imageLink: "team/2023-27/utkarsh.jpg",
   },
   {
-    nameID: "VanshikaSingh",
+    nameID: "Vanshika",
     email: "vanshikasingh0710@gmail.com",
-    name: "Vanshika Singh",
+    name: "Vanshika",
     branch: "Information and Technology",
     instagram_Link:
       "https://www.instagram.com/vanshikastills?igsh=c3RxeGQ3aDM4YjJn",
