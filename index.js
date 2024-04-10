@@ -122,3 +122,9 @@ document.querySelectorAll(
 document
   .querySelectorAll('.aksargyan_footer_item>a')[0]
   .setAttribute('href', `tel:+91 ${newNum}`);
+
+document.querySelectorAll(
+  'a'
+).forEach((link)=>{
+  if(link.getAttribute("href") == "#")link.style.display = "none";
+});
