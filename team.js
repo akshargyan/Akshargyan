@@ -1,7 +1,7 @@
-'use strict';
+"use strict";
 
 class CardShow {
-  constructor(name, branch, insta , linkedin , twt , pic, number) {
+  constructor(name, branch, insta, linkedin, twt, pic, number) {
     this.name = name;
     this.branch = branch;
     this.insta = insta;
@@ -13,10 +13,8 @@ class CardShow {
     this._setCardid();
   }
 
-  
-
-  _setCardid(){
-    this.cardId = this.name[0]+this.branch[0]+this.id;
+  _setCardid() {
+    this.cardId = this.name[0] + this.branch[0] + this.id;
   }
 
   _setHtml() {
@@ -29,8 +27,6 @@ class CardShow {
                           <a href="${this.twt}" target="_blank"><img src="images/Twt_OUR.png"/></a>
                       </div>
                   </div>`;
-    // console.log(html);
-    // console.log(this);
-    document.getElementById(this.id).insertAdjacentHTML('beforeend', html);
+    document.getElementById(this.id).insertAdjacentHTML("beforeend", html);
   }
 }
