@@ -20,7 +20,7 @@ const membersOf2024 = {
     "https://instagram.com/_sweet_honey_0?utm_medium=copy_link",
     "https://www.linkedin.com/in/sakshi-gupta6",
     "#",
-    "team/2nd_year/Sakshi_Gupta.png",
+    "team/2nd_year/Sakshi_Gupta.jpg",
     2024
   ),
   // Abhishek Pandey
