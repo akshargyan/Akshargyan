@@ -34,9 +34,9 @@ const data = [
     branch: "Computer Science Engineering (AI & ML)",
     instagram_Link:
       "https://www.instagram.com/its_isha.25?igsh=dnk0azF6amhqaXA4",
-    twitterLink:
+    linkedin_Link:
       "https://www.linkedin.com/in/isha-gupta-b6a5232a5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    linkedin_Link: "https://x.com/isha_gupta2507?t=GjH6x1w4VtDzFTZVwyKt1g&s=08",
+    twitterLink: "https://x.com/isha_gupta2507?t=GjH6x1w4VtDzFTZVwyKt1g&s=08",
     imageLink: "team/2023-27/IMG-20240401-WA0004 - Isha Gupta.jpg",
   },
   {
