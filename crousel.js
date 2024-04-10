@@ -1,13 +1,11 @@
-'use strict';
-
+"use strict";
 
 const currDisplayYear = membersOf2024;
 // for storing all names as the keys of displays
 const nameKey = [];
-for(let key in currDisplayYear){
+for (let key in currDisplayYear) {
   nameKey.push(key);
 }
-
 
 const selectonNum = [];
 while (selectonNum.length < 5) {
@@ -23,10 +21,12 @@ const html = `  <main>
       <h6>Our Team</h6>
 
       <div class="prevLeftSecond common" >
-        <img class="aksargyan_crousel_image_person" src="${currDisplayYear[nameKey[selectonNum[0]]].pic}">
+        <img class="aksargyan_crousel_image_person" src="${
+          currDisplayYear[nameKey[selectonNum[0]]].pic
+        }">
          <div class="aksargyan_deatils_holder"> <div class="crousel_handels">
              <a href="${
-              currDisplayYear[nameKey[selectonNum[0]]].linkedin
+               currDisplayYear[nameKey[selectonNum[0]]].linkedin
              }" target="_blank"><img  src="images/crousel_linkedin.png"  /></a>
           <a href="${
             currDisplayYear[nameKey[selectonNum[0]]].insta
@@ -153,17 +153,17 @@ const html = `  <main>
 
 // console.log(html);
 
-const crouserSection = document.querySelector('.ourT');
+const crouserSection = document.querySelector(".ourT");
 
-const crouselDataDisplay = document.createElement('div');
+const crouselDataDisplay = document.createElement("div");
 
-crouserSection.insertAdjacentHTML('afterbegin', html);
+crouserSection.insertAdjacentHTML("afterbegin", html);
 
 function moveToSelected(element) {
-  if (element == 'next') {
-    var selected = $('.selected').next();
-  } else if (element == 'prev') {
-    var selected = $('.selected').prev();
+  if (element == "next") {
+    var selected = $(".selected").next();
+  } else if (element == "prev") {
+    var selected = $(".selected").prev();
   } else {
     var selected = element;
   }
@@ -173,29 +173,29 @@ function moveToSelected(element) {
   var prevSecond = $(prev).prev();
   var nextSecond = $(next).next();
 
-  $(selected).removeClass().addClass('selected');
+  $(selected).removeClass().addClass("selected");
   // .removeClass().
-  $(prev).removeClass().addClass('prev');
-  $(next).removeClass().addClass('next');
+  $(prev).removeClass().addClass("prev");
+  $(next).removeClass().addClass("next");
   //nextRightSecond
   // prevLeftSecond;
-  $(nextSecond).removeClass().addClass('nextRightSecond');
-  $(prevSecond).removeClass().addClass('prevLeftSecond');
+  $(nextSecond).removeClass().addClass("nextRightSecond");
+  $(prevSecond).removeClass().addClass("prevLeftSecond");
   // ;hideLeft;
-  $(nextSecond).nextAll().removeClass().addClass('hideRight');
+  $(nextSecond).nextAll().removeClass().addClass("hideRight");
 
-  $(prevSecond).prevAll().removeClass().addClass('hideLeft');
+  $(prevSecond).prevAll().removeClass().addClass("hideLeft");
 }
 
 // Eventos teclado
 $(document).keydown(function (e) {
   switch (e.which) {
     case 37: // left
-      moveToSelected('prev');
+      moveToSelected("prev");
       break;
 
     case 39: // right
-      moveToSelected('next');
+      moveToSelected("next");
       break;
 
     default:
@@ -204,16 +204,16 @@ $(document).keydown(function (e) {
   e.preventDefault();
 });
 
-$('#carousel .common').click(function () {
+$("#carousel .common").click(function () {
   moveToSelected($(this));
 });
 
-$('#prev').click(function () {
-  moveToSelected('prev');
+$("#prev").click(function () {
+  moveToSelected("prev");
 });
 
-$('#next').click(function () {
-  moveToSelected('next');
+$("#next").click(function () {
+  moveToSelected("next");
 });
 
 //
