@@ -139,14 +139,34 @@ const membersOf2026 = {
     "team/2022-26/sangesh.jpg",
     2026
   ),
+  HarshPatel: new CardShow(
+    "Harsh Patel",
+    "Electrical Engineering",
+    "https://www.instagram.com/harshsingha9451?igsh=cTFraDdraXhjMDMy",
+    "https://www.linkedin.com/in/harsh-patel-98a70b218?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "https://x.com/HarshSi59938325?t=2INnETc33A-Z1ue3GIQspA&s=08",
+    "team/2022-26/harsh.jpg",
+    2026
+  ),
 
   AbhishekKumar: new CardShow(
     "Abhishek Kumar",
     "Computer Science Engineering (Data Science)",
     "https://www.instagram.com/_.abhishek_23?igsh=MXB1ZjZ4dmo3N2Rkcw==",
-    "https://x.com/_Abhishek19?t=5Pfkjow3CZh9C61EiRS91w&s=09",
+
     "https://www.linkedin.com/in/abhishek-kumar2321",
-    "team/2022-26/IMG_20240401_205935 - Abhishek Kumar.jpg",
+    "https://x.com/_Abhishek19?t=5Pfkjow3CZh9C61EiRS91w&s=09",
+    "team/2022-26/abhishek.jpg",
+    2026
+  ),
+  PalakSharma: new CardShow(
+    "Palak Sharma",
+    "Computer Science Engineering (Data Science)",
+    "https://www.instagram.com/loopingmusic?igsh=aW85b2oya3g3Z2s3",
+
+    "https://www.linkedin.com/in/palaksharma2123",
+    "https://x.com/PalakSharma2321",
+    "team/2022-26/palak.jpg",
     2026
   ),
   MahimaGupta: new CardShow(
@@ -156,7 +176,6 @@ const membersOf2026 = {
     "#",
     "#",
     "team/2022-26/Screenshot_2023-05-24-22-56-10-959_com.miui.gallery - Mahima Gupta.jpg",
-
     2026
   ),
 
@@ -164,9 +183,46 @@ const membersOf2026 = {
     "Deepti Rathore",
     "Computer Science Engineering",
     "#",
-    "#",
+
     "https://www.linkedin.com/in/deepti-r-5b140b298?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "#",
     "team/2022-26/DeeptiRathore.jpg",
+    2026
+  ),
+  HritikKumarSingh: new CardShow(
+    "Hritik Kumar Singh",
+    "Electrical and Electronics Engineering",
+    "https://www.instagram.com/singh.hritik_?igsh=MXhyOGRvazNsMHprMw==",
+    "https://www.linkedin.com/in/hritik1910?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "#",
+    "team/2022-26/hritik.jpg",
+    2026
+  ),
+  AditiUpadhyaya: new CardShow(
+    "Aditi Upadhyaya",
+    "Electrical and Electronics Engineering",
+    "https://www.instagram.com/aditiii03?igsh=MWg0ODF5MjQ2Z3kxeg==",
+    "https://www.linkedin.com/in/aditi-upadhyaya-774a732a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+    "#",
+    "team/2022-26/aditi.jpg",
+    2026
+  ),
+  PawandeepKaur: new CardShow(
+    "Pawandeep Kaur",
+    "Information and Technology",
+    "https://www.instagram.com/pawand_e_e_pkaur?igsh=MWd1M2hzZ2ptaHY1OA==",
+    "#",
+    "#",
+    "team/2022-26/pwandeep.jpg",
+    2026
+  ),
+  MahimaSrivastava: new CardShow(
+    "Mahima Srivastava",
+    "Electronics and Communications Engineering",
+    "https://www.instagram.com/stories/its_mahima0708/3342996826793307973?igsh=MTI2bGtsbjVmMmIwOA==",
+    "#",
+    "#",
+    "team/2022-26/mahimaS.jpg",
     2026
   ),
 };
